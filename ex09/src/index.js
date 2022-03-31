@@ -1,8 +1,8 @@
 function main(){
 
-	firstNum = 6;
-	secondNum = 25;
-	thirdNum = 5.2;
+	var firstNum = 6;
+	var secondNum = 25;
+	var thirdNum = 5.2;
 	firstNum *= 9;
 	secondNum /= 5;
 	thirdNum *= 10;
