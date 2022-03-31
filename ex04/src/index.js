@@ -2,9 +2,13 @@ function main(){
 
 	myDecimal = 4.2;
 	myDecimalE = 2.54 * 10^-3;
-	return myDecimal, myDecimalE;
+	return {
+		
+		myDecimal, 
+		myDecimalE
+	}
 }
 
-main();
+console.log(main());
 
 module.exports = main;
