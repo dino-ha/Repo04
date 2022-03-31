@@ -1,8 +1,8 @@
 function main(numOne, numTwo){
 
 	var remainder;
-	numOne = 0;
-	numTwo = 0;
+	var numOne = 0;
+	var numTwo = 0;
 	remainder = numOne % numTwo;
 	return remainder;
 
@@ -10,6 +10,6 @@ function main(numOne, numTwo){
 
 }
 
-main(numOne, numTwo);
+console.log(main(numOne, numTwo));
 
 module.exports = main;
